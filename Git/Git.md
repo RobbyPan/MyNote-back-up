@@ -24,6 +24,14 @@ git config --global user.email "@"
 git config --global user.name "name"
 ```
 
+远程仓库同步到本地仓库
+
+`git pull origin master`
+
+#### 常见问题-无法正常推送
+
+如果远程仓库的代码高于本地仓库，则无法正常推送，需要先pull一下获取最新版本再推送。
+
 ### Git版本追溯
 
 `git reset --hard 版本号`
